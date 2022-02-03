@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+cyan #01FDF6
+orange #FB5012
+yellow #E9DF00
+gren cyan #03FCBA
+*/
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #3b363f;
+}
+body{
+    margin: auto;
+    background-image: linear-gradient(to bottom right, #fff235, #f3e700);
+}
+#wrapper{
+    margin: 25vh auto;
+    padding: 5vh;
+    height: min-content;
+    min-height: 40vh;
+    width: 40vw;
+    background-color: #fff235;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #00000065;
+}
+#wrapper p{
+    text-align: right;
+}
+h1{
+    font-size: 1.8rem;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #3b363f;
+}
+.img-frame{
+    float: right;
+    margin: 1rem 0;
+    height: 28vh;
+    width: 14vw;
+    background-image: url(./img/Cylinder-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+form{
+    margin: 2rem 0;
+}
+form *{
+    display: inline-block;
+    margin: 0.3rem 0 0 0;
+    width: 10rem;
+}
+form p {
+    width: 1rem;
+}
+#result{
+    display: inline-block;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+/* kreiran u JS */
+#result sup{
+    font-size: 1.2rem;
+}
